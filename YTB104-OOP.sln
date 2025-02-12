@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_1_Giris", "OOP_1_Giris,
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Uygulama", "OOP_Uygulama\OOP_Uygulama.csproj", "{EFFA7EC4-6597-41D0-8316-596B22BF2CD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_2", "OOP_2\OOP_2.csproj", "{C08A6EAE-0BDC-4A38-B52A-75C4870B4E8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_2", "OOP_2\OOP_2.csproj", "{C08A6EAE-0BDC-4A38-B52A-75C4870B4E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{4606463C-969A-4F20-8D3E-97FB6DDD2853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{4606463C-969A-4F20-8D3E-97FB6DDD2853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_2", "Collections_2\Collections_2.csproj", "{1000E758-F370-4C9C-93B7-5EFE686254EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{4606463C-969A-4F20-8D3E-97FB6DDD2853}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4606463C-969A-4F20-8D3E-97FB6DDD2853}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4606463C-969A-4F20-8D3E-97FB6DDD2853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1000E758-F370-4C9C-93B7-5EFE686254EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1000E758-F370-4C9C-93B7-5EFE686254EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1000E758-F370-4C9C-93B7-5EFE686254EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1000E758-F370-4C9C-93B7-5EFE686254EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
