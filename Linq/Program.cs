@@ -84,3 +84,24 @@ void NotOrtalamaListesi1(List<Student> students)
     //foreach ile yapınız
 
 }
+
+
+void NotOrtalamaListesi2(List<Student> students)
+{
+    List<Detail> details = new List<Detail>();
+
+    foreach (var student in students)
+    {
+        Detail detail = new Detail
+        {
+            StudentName = student.Name,
+            Average = student.Notes.Average()
+        };
+        details.Add(detail);
+    }
+
+    foreach (var detail in details)
+    {
+        Console.WriteLine(detail);
+    }
+}
