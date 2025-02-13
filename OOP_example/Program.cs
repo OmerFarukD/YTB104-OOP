@@ -3,6 +3,5 @@
 
 using OOP_example;
 
-ProductManager productManager = new ProductManager();
-
-productManager.StokLariBitenUrunleriListele();
+ProductController controller = new ProductController();
+controller.Run();

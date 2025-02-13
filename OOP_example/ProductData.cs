@@ -2,6 +2,8 @@
 namespace OOP_example;
 
 // Single Responsibility 
+
+// Filtreleme ve listeleme operasyonlarını yapıyor
 public class ProductData
 {
     List<Product> products = new List<Product>()

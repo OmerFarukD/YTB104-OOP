@@ -1,5 +1,7 @@
 ﻿namespace OOP_example;
 
+
+// Kullanıcının görmek istediği alanlar
 public class ProductManager
 {
     ProductData data = new ProductData();
@@ -33,15 +35,7 @@ public class ProductManager
         Console.WriteLine($"{category} kategorisine ait ürünler");
 
         filteredProducts.ForEach(x => Console.WriteLine(x));
-
-        Console.WriteLine("----------------------------------------------------");
-        Console.WriteLine("Ürünler ve Detayları");
-        Console.WriteLine($"Ürün Sayısı : {filteredProducts.Count}");
-        Console.WriteLine($"Ürünlerin Fiyat toplamı : {filteredProducts.Sum(x => x.Price)}");
-        Console.WriteLine($"Ürünlerin Fiyat Ortalaması : {filteredProducts.Average(x => x.Price)}");
-
-        Console.WriteLine($"En Ucuz Ürün => {filteredProducts.MinBy(x=>x.Price)}");
-        Console.WriteLine($"En Pahalı Ürün =>  {filteredProducts.MaxBy(x => x.Price)}");
+        DetayYazdir(filteredProducts);
     }
 
 
@@ -60,16 +54,7 @@ public class ProductManager
 
         filtered.ForEach(x=> Console.WriteLine(x));
 
-
-        Console.WriteLine("----------------------------------------------------");
-        Console.WriteLine("Ürünler ve Detayları");
-        Console.WriteLine($"Ürün Sayısı : {filtered.Count}");
-
-        Console.WriteLine($"Ürünlerin Fiyat toplamı : {filtered.Sum(x => x.Price)}");
-        Console.WriteLine($"Ürünlerin Fiyat Ortalaması : {filtered.Average(x => x.Price)}");
-
-        Console.WriteLine($"En Ucuz Ürün => {filtered.MinBy(x => x.Price)}");
-        Console.WriteLine($"En Pahalı Ürün =>  {filtered.MaxBy(x => x.Price)}");
+        DetayYazdir(filtered);
 
     }
 
@@ -86,15 +71,7 @@ public class ProductManager
 
         filtered.ForEach(x => Console.WriteLine(x));
 
-        Console.WriteLine("----------------------------------------------------");
-        Console.WriteLine("Ürünler ve Detayları");
-        Console.WriteLine($"Ürün Sayısı : {filtered.Count}");
-
-        Console.WriteLine($"Ürünlerin Fiyat toplamı : {filtered.Sum(x => x.Price)}");
-        Console.WriteLine($"Ürünlerin Fiyat Ortalaması : {filtered.Average(x => x.Price)}");
-
-        Console.WriteLine($"En Ucuz Ürün => {filtered.MinBy(x => x.Price)}");
-        Console.WriteLine($"En Pahalı Ürün =>  {filtered.MaxBy(x => x.Price)}");
+        DetayYazdir(filtered);
     }
 
 
@@ -104,15 +81,21 @@ public class ProductManager
         List<Product> filtered = data.GetAllStockFinished();
 
         filtered.ForEach(x=>Console.WriteLine(x));
+        DetayYazdir(filtered);
+    }
+
+
+    void DetayYazdir(List<Product> products)
+    {
 
         Console.WriteLine("----------------------------------------------------");
         Console.WriteLine("Ürünler ve Detayları");
-        Console.WriteLine($"Ürün Sayısı : {filtered.Count}");
+        Console.WriteLine($"Ürün Sayısı : {products.Count}");
 
-        Console.WriteLine($"Ürünlerin Fiyat toplamı : {filtered.Sum(x => x.Price)}");
-        Console.WriteLine($"Ürünlerin Fiyat Ortalaması : {filtered.Average(x => x.Price)}");
+        Console.WriteLine($"Ürünlerin Fiyat toplamı : {products.Sum(x => x.Price)}");
+        Console.WriteLine($"Ürünlerin Fiyat Ortalaması : {products.Average(x => x.Price)}");
 
-        Console.WriteLine($"En Ucuz Ürün => {filtered.MinBy(x => x.Price)}");
-        Console.WriteLine($"En Pahalı Ürün =>  {filtered.MaxBy(x => x.Price)}");
+        Console.WriteLine($"En Ucuz Ürün => {products.MinBy(x => x.Price)}");
+        Console.WriteLine($"En Pahalı Ürün =>  {products.MaxBy(x => x.Price)}");
     }
 }
