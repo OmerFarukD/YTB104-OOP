@@ -1,4 +1,6 @@
-﻿
+﻿using Inheritance;
+
+Truck truck = new Truck();
 
 Console.WriteLine("Merhaba ben Ömer");
 Console.WriteLine("Merhaba ben Ömer");

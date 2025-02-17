@@ -71,8 +71,6 @@ public class ProductController
         while (true)
         {
 
-            
-
             if (devam == "e")
             {
                
@@ -87,7 +85,6 @@ public class ProductController
             {
                 break;
             }
-
            
         }
 
