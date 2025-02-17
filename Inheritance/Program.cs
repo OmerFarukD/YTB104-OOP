@@ -36,6 +36,12 @@ Motorcycle motorcycle = new Motorcycle()
     HasStand = true
 };
 
+SoftwareDeveloper softwareDeveloper = new SoftwareDeveloper()
+{
+    ProgrammingLanguage = "C#"
+};
+softwareDeveloper.ProgrammingLanguage = "jAVA";
+
 Console.WriteLine(car);
 Console.WriteLine(truck);
 Console.WriteLine(motorcycle);
