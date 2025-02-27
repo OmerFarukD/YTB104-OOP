@@ -10,13 +10,13 @@ public interface IMatematik
     void Topla(double sayi1, double sayi2,double sayi3);
 
 
-    void Sum(params double[] numbers);
+    void Topla(params double[] numbers);
 
     void Carpma(double sayi1, double sayi2);
 
     void Carpma(double sayi1, double sayi2, double sayi3);
 
-
+    void Carpma(params double[] sayilar);
 
     void Bolme(double sayi1, double sayi2);
 

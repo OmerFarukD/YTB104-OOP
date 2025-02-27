@@ -43,9 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation-2", "Encapsul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{7983618E-2237-486E-BC32-499215F1F45C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev_1", "Odev_1\Odev_1.csproj", "{DE0BAAA3-FFFC-47BF-890F-7E77C6F2897C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev_1", "Odev_1\Odev_1.csproj", "{DE0BAAA3-FFFC-47BF-890F-7E77C6F2897C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism_2", "Polymorphism_2\Polymorphism_2.csproj", "{7B5898A7-4E89-408A-B505-19490FC639E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism_2", "Polymorphism_2\Polymorphism_2.csproj", "{7B5898A7-4E89-408A-B505-19490FC639E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{0CFD161E-5255-4A8B-8B2B-598B5C28A833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlingExample", "ExceptionHandlingExample\ExceptionHandlingExample.csproj", "{2802D87F-15A6-4865-A76D-446DDF96692C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,14 @@ Global
 		{7B5898A7-4E89-408A-B505-19490FC639E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B5898A7-4E89-408A-B505-19490FC639E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B5898A7-4E89-408A-B505-19490FC639E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFD161E-5255-4A8B-8B2B-598B5C28A833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFD161E-5255-4A8B-8B2B-598B5C28A833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFD161E-5255-4A8B-8B2B-598B5C28A833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFD161E-5255-4A8B-8B2B-598B5C28A833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2802D87F-15A6-4865-A76D-446DDF96692C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2802D87F-15A6-4865-A76D-446DDF96692C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2802D87F-15A6-4865-A76D-446DDF96692C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2802D87F-15A6-4865-A76D-446DDF96692C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,13 +27,25 @@ public class Matematik : IMatematik
         Console.WriteLine($"{sayi1} * {sayi2} * {sayi3} = {sonuc}");
     }
 
+    public void Carpma(params double[] sayilar)
+    {
+        double total = 1;
+
+        foreach(double sayi in sayilar)
+        {
+            total *= sayi;
+        }
+
+        Console.WriteLine($"Çarpım Sonucu  : {total}");
+    }
+
     public void Cikarma(double sayi1, double sayi2)
     {
         double sonuc = sayi1 - sayi2;
         Console.WriteLine($"{sayi1} - {sayi2} = {sonuc}");
     }
 
-    public void Sum(params double[] numbers)
+    public void Topla(params double[] numbers)
     {
         double total = 0;
 
